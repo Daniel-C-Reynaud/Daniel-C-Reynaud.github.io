@@ -1,7 +1,25 @@
 @charset "UTF-8";
 
-@media (max-width: 800px) {
-   body{
-      background-color: black;
-   }
+body{
+   background-color: hsl(256, 15%, 15%);
+}
+
+#cbc{
+   display: flex;
+   justify-content: center;
+}
+
+#searchbox{
+   background-color: #fff;
+   border-radius: 50px;
+   width: 270px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   height: 50px;
+}
+
+#search, #search:focus{
+   border: none;
+   outline: none;
 }
